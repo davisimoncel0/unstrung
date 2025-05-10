@@ -1,0 +1,126 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+  display: flex;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+
+#countdown {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+#countdown div {
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 100px;
+}
+
+#countdown span {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+#countdown p {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #aaa;
+}
+
+.bottom-text {
+  margin-top: 40px;
+  font-style: italic;
+  color: #303030;
+}
+
+.logo {
+  max-width: 300px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.video-container {
+  margin-top: 40px;
+}
+
+iframe {
+  width: 100%;
+  max-width: 560px;
+  height: 315px;
+  border: none;
+  border-radius: 10px;
+}
+
+footer {
+  color: #aaa;
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 20px 10px;
+}
+
+.social-links {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  filter: grayscale(100%) brightness(0.7);
+}
+
+.icon:hover {
+  transform: scale(1.2);
+  filter: grayscale(0%) brightness(1.1);
+}
+
+/* Ícones específicos */
+.instagram {
+  background-image: url('https://cdn-icons-png.flaticon.com/512/2111/2111463.png');
+}
+
+.discord {
+  background-image: url('https://cdn-icons-png.flaticon.com/512/5968/5968756.png');
+}
+
+.youtube {
+  background-image: url('https://cdn-icons-png.flaticon.com/512/1384/1384060.png');
+}
